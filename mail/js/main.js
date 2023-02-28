@@ -43,7 +43,7 @@ let somma = 0;
 for (let i = 0; i < valori.length; i++){
 
     somma += valori[i];
-    result = somma / (i + 1);
+    result = somma / (valori.length);
 };
 
 console.log(somma);
